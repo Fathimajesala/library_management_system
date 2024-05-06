@@ -14,7 +14,7 @@ class User extends BaseModel
 
     protected function getTableName()
     {
-        return "admin";
+        return "user";
     }
 
     

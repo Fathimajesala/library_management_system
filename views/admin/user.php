@@ -140,7 +140,7 @@ $numRows = count($users);
                     <div class="row g-1 mt-2">
                         <div class="col mb-3">
                             <label for="position" class="form-label">position</label>
-                            <input type="text" id="position" name="position" class="form-control" placeholder="Librarian" required />
+                            <input type="text" id="position" name="position" class="form-control" placeholder="librarian" required />
                         </div>
                     </div>
                     <div id="additional-fields"></div>
