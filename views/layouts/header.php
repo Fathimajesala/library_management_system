@@ -8,6 +8,10 @@ $username = $sm->getAttribute("username");
 $position = $sm->getAttribute("position");
 
 
+if (!isset($username)) {
+    dd('Permission denied!');
+}
+
 
 
 $currentUrl = $_SERVER['SCRIPT_NAME'];
