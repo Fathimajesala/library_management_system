@@ -1,0 +1,16 @@
+Database Configuration
+
+Create Database library_management
+Import database library_management (available inside zip package)
+
+For Student
+
+Login Details for Student: 
+Email: user@gmail.com
+Password: 123
+
+For Admin Panel
+
+Login Details for admin : 
+Email: admin@gmail.com
+Password:admin123
