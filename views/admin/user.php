@@ -99,7 +99,7 @@ $numRows = count($users);
                 <div class="row">
                         <div class="col mb-3">
                             <label for="idcard" class="form-label">idcard</label>
-                            <input type="text" id="idcard" name="idcard" class="form-control" placeholder="AID111 " required />
+                            <input type="text" id="idcard" name="idcard" class="form-control" placeholder="AID111" value="AID" required />
                         </div>
                     </div>
                     <div class="row">
@@ -140,7 +140,7 @@ $numRows = count($users);
                     <div class="row g-1 mt-2">
                         <div class="col mb-3">
                             <label for="position" class="form-label">position</label>
-                            <input type="text" id="position" name="position" class="form-control" placeholder="librarian" required />
+                            <input type="text" id="position" name="position" class="form-control" placeholder="librarian" value="librarian" required />
                         </div>
                     </div>
                     <div id="additional-fields"></div>
@@ -174,7 +174,7 @@ $numRows = count($users);
                 <div class="row ">
                         <div class="col mb-3">
                             <label for="idcard" class="form-label">idcard</label>
-                            <input type="text" id="idcard" name="idcard" class="form-control" placeholder="Enter idcard no" required />
+                            <input type="text" id="idcard" name="idcard" class="form-control" placeholder="Enter idcard no" value="AID" required />
                         </div>
                     </div>
                         <div class="col mb-3">
@@ -209,7 +209,7 @@ $numRows = count($users);
                     <div class="row g-1 mt-2 ">
                         <div class="col mb-3">
                             <label for="position" class="form-label">position</label>
-                            <input type="text" id="position" name="position" class="form-control" placeholder="Enter position" required />
+                            <input type="text" id="position" name="position" class="form-control" placeholder="Enter position" value="librarian" required />
                         </div>
                     </div>
                         <div class="col mb-3">

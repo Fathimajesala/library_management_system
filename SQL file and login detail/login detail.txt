@@ -17,3 +17,5 @@ Password:admin123
 
 "LMS project repository: https://github.com/Fathimajesala/library_management_system.git"
 
+"Here is the video link for the library: https://www.loom.com/share/95576e1f17c54b3eadb2277815b047a1?sid=d5067323-5799-4482-ab1b-2a2a367e29e9"
+

@@ -125,7 +125,7 @@ $numRows = count($students);
                     <div class="row">
                         <div class="col mb-3">
                             <label for="idcard" class="form-label">idcard</label>
-                            <input type="text" id="idcard" name="idcard" class="form-control" placeholder="Enter StudentId" required />
+                            <input type="text" id="idcard" name="idcard" class="form-control" placeholder="Enter StudentId" value="SID" required />
                         </div> 
                     </div>
                         <div class="col mb-3">
@@ -162,7 +162,7 @@ $numRows = count($students);
                     <div class="row g-2 mt-2">
                         <div class="col mb-3">
                             <label for="position" class="form-label">position</label>
-                            <input type="text" id="position" name="position" class="form-control" placeholder="Enter position" required />
+                            <input type="text" id="position" name="position" class="form-control" placeholder="Enter position" value="librarian" required />
                         </div>
                     </div>
                     <div id="additional-fields"></div>

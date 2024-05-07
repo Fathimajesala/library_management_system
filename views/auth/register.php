@@ -79,7 +79,8 @@ $currentFilename = basename($currentUrl);  // e.g., "dashboard.php"
                       <input type="hidden" name="action" value="create_student">
                        <div class="mb-3">
                        <label for="idcard" class="form-label">idcard</label>
-                       <input type="text" class="form-control" id="idcard" name="idcard" placeholder="SID111" autofocus required>
+                       <input type="text" class="form-control" id="idcard" name="idcard" placeholder="SID111"
+                       value="SID" autofocus required>
                </div>
               <div class="mb-3">
                   <label for="username" class="form-label">Username</label>
@@ -108,10 +109,10 @@ $currentFilename = basename($currentUrl);  // e.g., "dashboard.php"
                   <label for="mobilenumber" class="form-label">mobilenumber</label>
                   <input type="number" class="form-control" id="mobilenumber" name="mobilenumber" placeholder="Enter your mobilenumber" autofocus required>       
                  </div>
-               <div class="mb-3">
-                 <label for="position" class="form-label">position</label>
-                <input type="text" class="form-control" id="position" name="position" placeholder="Student" autofocus required>
-               </div>
+                 <div class="mb-3">
+                  <label for="position" class="form-label">Position</label>
+                  <input type="text" class="form-control" id="position" name="position" placeholder="student" value="student" autofocus required>
+                </div>
                 <div class="mb-3">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="terms-conditions" name="terms" />
