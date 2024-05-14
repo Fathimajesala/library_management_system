@@ -53,7 +53,9 @@ $numRows = count($books);
                     <table class="table table-striped mb-4">
                         <thead>
                             <tr>
+                            <?php if ($position == 'librarian') : ?>
                                 <th style="width: 10px">#</th>
+                                <?php endif; ?> 
                                 <th class="">Book</th>
                                 <th class="">bookImage</th>
                                 <th class="">AuthorName</th>
@@ -71,7 +73,9 @@ $numRows = count($books);
                         <tbody>
                             <?php foreach ($books as $book) : ?>
                                 <tr>
+                                <?php if ($position == 'librarian') : ?>
                                     <td><?= $book['id'] ?></td>
+                                    <?php endif; ?> 
                                     <td><?= $book['BookName'] ?></td>
                                     <td class="text-center">
                                         <img src="<?= asset($book['bookImage']) ?>" alt="book-image" class="rounded" width="70">
